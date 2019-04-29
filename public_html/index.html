@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Vue.js</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- development version, includes helpful console warnings -->
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>  
+    </head>
+    <body>
+        <div id="app">Instancias en Vue.js:
+            <p>data.a es: {{ data.a }}</p>
+            <p>vm.a es: {{ vm.a }}</p>
+        </div>
+        <div id="app-2">
+            <p>{{ foo }}</p>
+            <!-- this will no longer update `foo`! -->
+            <button v-on:click="foo = 'baz'">Change it</button>
+        </div>
+        <div id="app-3">
+            
+        </div>
+        <script src="js/instancia.js" type="text/javascript"></script>
+    </body>
+</html>
